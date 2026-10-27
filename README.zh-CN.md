@@ -7,11 +7,11 @@
 
 - [English](./README.md) · 中文
 - 许可证：MIT · Python ≥ 3.10 · **无依赖**
-- 拟议仓库：[`YuanAqi/ts-ssh-helper`](https://github.com/YuanAqi/ts-ssh-helper)
+- 仓库：[`YuanAqi/ts-ssh-helper`](https://github.com/YuanAqi/ts-ssh-helper)
 
-## 为什么值得 Star
+## 做什么
 
-给 Agent 主机把公网 22 打开是常见翻车点。本项目把实战验证过的 **仅 Tailscale CGNAT** 模式收成 CLI：打印配置、写出片段、检查 `ssh`/`tailscale` 是否在 PATH，可选 BatchMode 探测别名。文档讲清 admin / readonly；机械活交给代码。
+需要 SSH 连到跑 Agent 的机器，但不想把 22 端口暴露到公网。**ts-ssh-helper** 帮你走「只用 Tailscale」这条路：生成可粘贴的 `~/.ssh/config`、写出本机密钥与云端初始化脚本片段、检查本机有没有装 `ssh` / `tailscale`，也可以可选地探测一下别名是否通。给连自己 Agent 主机的人用——它本身不会改防火墙或替你开端口。
 
 ## 安装 / 运行
 

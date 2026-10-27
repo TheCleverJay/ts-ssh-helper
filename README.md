@@ -7,11 +7,11 @@
 
 - English · [中文](./README.zh-CN.md)
 - License: MIT · Python ≥ 3.10 · **zero deps**
-- Proposed GitHub: [`YuanAqi/ts-ssh-helper`](https://github.com/YuanAqi/ts-ssh-helper)
+- GitHub: [`YuanAqi/ts-ssh-helper`](https://github.com/YuanAqi/ts-ssh-helper)
 
-## Why star this
+## What it does
 
-Opening public TCP 22 for an agent host is a common footgun. This project turns a battle-tested **Tailscale CGNAT-only** pattern into a CLI you can actually run: print config, write snippets, diagnose whether `ssh`/`tailscale` are on PATH, optionally probe an alias in BatchMode. Docs explain admin vs readonly; code does the mechanical work.
+You need SSH into a machine that runs agents, but opening port 22 to the public internet is risky. **ts-ssh-helper** helps you set up SSH over Tailscale only: it prints ready-to-paste `~/.ssh/config` blocks, writes local keygen and cloud bootstrap snippets, checks whether `ssh` / `tailscale` are installed, and can optionally probe a host alias. For operators connecting to their own agent hosts — it does not open ports or change firewall rules by itself.
 
 ## Install / run
 
