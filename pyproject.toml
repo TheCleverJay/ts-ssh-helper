@@ -28,10 +28,10 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/YuanAqi/ts-ssh-helper"
-Repository = "https://github.com/YuanAqi/ts-ssh-helper"
-Issues = "https://github.com/YuanAqi/ts-ssh-helper/issues"
-Changelog = "https://github.com/YuanAqi/ts-ssh-helper/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/TheCleverJay/ts-ssh-helper"
+Repository = "https://github.com/TheCleverJay/ts-ssh-helper"
+Issues = "https://github.com/TheCleverJay/ts-ssh-helper/issues"
+Changelog = "https://github.com/TheCleverJay/ts-ssh-helper/blob/main/CHANGELOG.md"
 
 [project.scripts]
 ts-ssh = "ts_ssh_helper.cli:main"

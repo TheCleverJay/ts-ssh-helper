@@ -12,7 +12,7 @@
 ## 开发
 
 ```bash
-git clone https://github.com/YuanAqi/ts-ssh-helper.git
+git clone https://github.com/TheCleverJay/ts-ssh-helper.git
 cd ts-ssh-helper
 PYTHONPATH=src python tests/test_smoke.py   # HTML 工具箱用 ./tests/smoke.sh
 ./scripts/smoke.sh

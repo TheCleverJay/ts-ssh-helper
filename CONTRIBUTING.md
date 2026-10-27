@@ -12,7 +12,7 @@ Thanks for helping. This repo stays small, dependency-light, and honest.
 ## Dev setup
 
 ```bash
-git clone https://github.com/YuanAqi/ts-ssh-helper.git
+git clone https://github.com/TheCleverJay/ts-ssh-helper.git
 cd ts-ssh-helper
 # Python packages:
 PYTHONPATH=src python -m pytest tests/ -q   # if pytest installed
