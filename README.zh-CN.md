@@ -7,7 +7,7 @@
 
 - [English](./README.md) · 中文
 - 许可证：MIT · Python ≥ 3.10 · **无依赖**
-- 仓库：[`YuanAqi/ts-ssh-helper`](https://github.com/YuanAqi/ts-ssh-helper)
+- 仓库：[`TheCleverJay/ts-ssh-helper`](https://github.com/TheCleverJay/ts-ssh-helper)
 
 ## 做什么
 

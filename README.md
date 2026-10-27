@@ -7,7 +7,7 @@
 
 - English · [中文](./README.zh-CN.md)
 - License: MIT · Python ≥ 3.10 · **zero deps**
-- GitHub: [`YuanAqi/ts-ssh-helper`](https://github.com/YuanAqi/ts-ssh-helper)
+- GitHub: [`TheCleverJay/ts-ssh-helper`](https://github.com/TheCleverJay/ts-ssh-helper)
 
 ## What it does
 
